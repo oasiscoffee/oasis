@@ -1,0 +1,39 @@
+.home-container{
+    height: 100vh;
+    background:  linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../image/bg.png');
+    background-size:cover;
+}
+
+.top-bar-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.top-bar-instagram-container{
+    width: 10%;
+    min-width: 40px;
+    max-width: 50px;
+}
+.top-bar-instagram-logo{
+    width: 100%;
+    cursor: pointer;
+}
+
+.top-bar-logo-container{
+    width: 70%;
+}
+
+.top-bar-logo{
+    width: 100%;
+} 
+
+.oasis-big-text-container{
+    font-size: max(10vw, 40px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #E59368;
+}
