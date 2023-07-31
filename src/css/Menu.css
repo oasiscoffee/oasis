@@ -1,0 +1,48 @@
+.menu-container{
+    display: flex;
+    width: 100vw;
+    border-style: solid;
+    height: 100vh;
+    border-color: red;
+    background-color: #080527;
+}
+
+.menu-title-container{
+    display: flex;
+    border-style: solid;
+    border-color: blue;
+    width: 30%;
+    min-width: 200px;
+    align-items: center;
+}
+
+.menu-title-container p{
+    font-size: 1700%;
+    color: white;
+    writing-mode:vertical-lr;
+    transform:rotate(-180deg);
+    border-style: solid;
+    height: fit-content;
+    margin: 0;
+    letter-spacing: -1.5%;
+}
+
+.menu-right-side-container{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: blueviolet;
+    width: 70%;
+}
+
+.menu-logo-navigation-container{
+    border-style: solid;
+    height: 30%;
+    border-color: green;
+}
+
+.menu-content-container{
+    border-style: solid;
+    height: 100%;
+    border-color: brown;
+}
