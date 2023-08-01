@@ -1,27 +1,22 @@
 .menu-container{
     display: flex;
     width: 100vw;
-    border-style: solid;
     height: 100vh;
-    border-color: red;
     background-color: #080527;
 }
 
 .menu-title-container{
     display: flex;
-    border-style: solid;
-    border-color: blue;
-    width: 30%;
+    width: 0;
     min-width: 200px;
     align-items: center;
 }
 
 .menu-title-container p{
-    font-size: 1700%;
+    font-size: 1500%;
     color: white;
     writing-mode:vertical-lr;
     transform:rotate(-180deg);
-    border-style: solid;
     height: fit-content;
     margin: 0;
     letter-spacing: -1.5%;
@@ -30,19 +25,56 @@
 .menu-right-side-container{
     display: flex;
     flex-direction: column;
-    border-style: solid;
-    border-color: blueviolet;
     width: 70%;
 }
 
 .menu-logo-navigation-container{
-    border-style: solid;
     height: 30%;
-    border-color: green;
+    margin-left: -200px;
+    position: relative;
+    width: 100vw;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". title bar";
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.menu-logo-container{
+    width: 30%;
+    grid-area: title;
+}
+
+.menu-logo-container img{
+    width: 100%;
+}
+
+.menu-menu-bar-container{
+    grid-area: bar;
 }
 
 .menu-content-container{
-    border-style: solid;
+    padding-top: 50px;
     height: 100%;
-    border-color: brown;
+    width: calc(100vw - 200px);
+    display: flex;
+    justify-content: center;
+}
+
+.menu-content-position-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-content-filter-container{
+    display: flex;
+    font-weight: 700;
+}
+
+.menu-content-filter-container p{
+    margin: 15px;
+    font-size: 24px;
 }
