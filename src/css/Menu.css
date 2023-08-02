@@ -22,6 +22,10 @@
     letter-spacing: -1.5%;
 }
 
+.menu-title-container-mobile{
+    display: none;
+}
+
 .menu-right-side-container{
     display: flex;
     flex-direction: column;
@@ -42,8 +46,9 @@
 }
 
 .menu-logo-container{
-    width: 30%;
+    width: 50%;
     grid-area: title;
+    min-width: 200px;
 }
 
 .menu-logo-container img{
@@ -77,4 +82,34 @@
 .menu-content-filter-container p{
     margin: 15px;
     font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (width < 860px) {
+    .menu-container{
+        flex-direction: column;
+    }
+
+    .menu-title-container{
+       display: none;
+    }
+    .menu-right-side-container{
+        width: 100%;
+    }
+
+    .menu-logo-navigation-container{
+        margin-left: 0;
+    }
+    .menu-title-container-mobile{
+        font-size: 40px;
+        display:flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .menu-content-container{
+        width: 100%;
+        padding-top: 0;
+    }
+
 }

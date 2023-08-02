@@ -8,8 +8,14 @@ export default function Menu() {
 
     const [open, setOpen] = useState(false);
 
+    const [category, setCategory] = useState(false);
+
     const setMenuHandler = () => {
         setOpen(!open)
+    }
+
+    const setCategoryHandler = (category) => {
+        setCategory(category);
     }
 
     return (
@@ -26,17 +32,20 @@ export default function Menu() {
                         <MenuBar settings={setMenuHandler} />
                     </div>
                 </div>
+                <div className="menu-title-container-mobile">
+                    <p>FOOD</p>
+                </div>
                 <div className="menu-content-container">
                     <div className="menu-content-position-container">
                         <div className="menu-content-filter-container">
-                            <p>
+                            <p style={(category) ? {} : { color: "rgba(256, 256, 256, 0.5)" }} onClick={() => setCategoryHandler(true)}>
                                 Main
                             </p>
-                            <p>
+                            <p style={(category) ? { color: "rgba(256, 256, 256, 0.5)" } : {}} onClick={() => setCategoryHandler(false)}>
                                 Specials
                             </p>
                         </div>
-                        <MenuList/>
+                        <MenuList />
                     </div>
                 </div>
             </div>

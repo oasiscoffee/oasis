@@ -7,24 +7,39 @@
 
 .actual-menu-left-side{
     height: 400px;
-    border-right: solid white 2px;
     justify-self: end;
     width: 100%;
 }
 
 .actual-menu-left-list-container{
     width: 80%;
-    padding-left: 80px;
+    margin-left: 30px;
+    float: right;
+}
+
+.actual-menu-left-list-container p{
+    margin-top: -15px;
+    margin-bottom: 31px;
 }
 
 .actual-menu-right-side{
     height: 400px;
-    border-left: solid white 2px;
     width: 100%;
 }
 
 .actual-menu-right-list-container{
     width: 80%;
     justify-self: start;
-    padding-left: 80px;
+    margin-left: 20px;
+}
+
+.actual-menu-right-list-container p{
+    margin-top: -15px;
+    margin-bottom: 31px;
+}
+
+@media screen and (width < 860px){
+    .actual-menu-left-list-container{
+        margin-left: 0;
+    }
 }
