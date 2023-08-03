@@ -3,6 +3,9 @@ import '../css/Menu.css';
 import MenuBar from "../components/menuBar";
 import logo from '../image/oasis.png';
 import MenuList from "../components/Menu-list";
+import MenuPages from "../components/menu-pages";
+import { useNavigate } from "react-router-dom";
+import MenuSpecials from "../components/Menu-Specials";
 
 export default function Menu() {
 
@@ -10,8 +13,10 @@ export default function Menu() {
 
     const [category, setCategory] = useState(false);
 
+    const navigate = useNavigate();
+
     const setMenuHandler = () => {
-        setOpen(!open)
+        setOpen(!open);
     }
 
     const setCategoryHandler = (category) => {
@@ -26,10 +31,10 @@ export default function Menu() {
             <div className="menu-right-side-container">
                 <div className="menu-logo-navigation-container">
                     <div className="menu-logo-container">
-                        <img src={logo}></img>
+                        <img onClick={() => navigate("/")} src={logo}></img>
                     </div>
                     <div className="menu-menu-bar-container">
-                        <MenuBar settings={setMenuHandler} />
+                        <MenuBar setting={setMenuHandler} />
                     </div>
                 </div>
                 <div className="menu-title-container-mobile">
@@ -45,10 +50,11 @@ export default function Menu() {
                                 Specials
                             </p>
                         </div>
-                        <MenuList />
+                        {(category) ? <MenuList /> : <MenuSpecials/>}
                     </div>
                 </div>
             </div>
+            <MenuPages setting={open}/>
         </div>
     )
 }

@@ -1,15 +1,17 @@
 .menu-container{
     display: flex;
     width: 100vw;
-    height: 100vh;
     background-color: #080527;
+    height: 100vh;
+    overflow-x: hidden;
+
 }
 
 .menu-title-container{
     display: flex;
-    width: 0;
     min-width: 200px;
     align-items: center;
+    justify-content: center;
 }
 
 .menu-title-container p{
@@ -33,7 +35,6 @@
 }
 
 .menu-logo-navigation-container{
-    height: 30%;
     margin-left: -200px;
     position: relative;
     width: 100vw;
@@ -48,11 +49,12 @@
 .menu-logo-container{
     width: 50%;
     grid-area: title;
-    min-width: 200px;
+    min-width: 150px;
 }
 
 .menu-logo-container img{
     width: 100%;
+    cursor: pointer;
 }
 
 .menu-menu-bar-container{
