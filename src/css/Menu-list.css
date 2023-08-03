@@ -6,7 +6,6 @@
 }
 
 .actual-menu-left-side{
-    height: 400px;
     justify-self: end;
     width: 100%;
 }
@@ -23,7 +22,6 @@
 }
 
 .actual-menu-right-side{
-    height: 400px;
     width: 100%;
 }
 
