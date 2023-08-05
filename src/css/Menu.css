@@ -1,0 +1,118 @@
+.menu-container{
+    display: flex;
+    width: 100vw;
+    background-color: #080527;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.menu-title-container{
+    display: flex;
+    min-width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-title-container p{
+    font-size: 16vw;
+    color: white;
+    writing-mode:vertical-lr;
+    transform:rotate(-180deg);
+    height: fit-content;
+    margin: 0;
+    letter-spacing: -1.5%;
+}
+
+.menu-title-container-mobile{
+    display: none;
+}
+
+.menu-right-side-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.menu-logo-navigation-container{
+    margin-left: -200px;
+    position: relative;
+    width: 100vw;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". title bar";
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.menu-logo-container{
+    width: 50%;
+    grid-area: title;
+    min-width: 150px;
+}
+
+.menu-logo-container img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu-menu-bar-container{
+    grid-area: bar;
+}
+
+.menu-content-container{
+    padding-top: 50px;
+    height: 100%;
+    width: calc(100vw - 200px);
+    display: flex;
+    justify-content: center;
+}
+
+.menu-content-position-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-content-filter-container{
+    display: flex;
+    font-weight: 700;
+}
+
+.menu-content-filter-container p{
+    font-size: 24px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+@media screen and (width < 860px) {
+    .menu-container{
+        flex-direction: column;
+    }
+
+    .menu-title-container{
+       display: none;
+    }
+    .menu-right-side-container{
+        width: 100%;
+    }
+
+    .menu-logo-navigation-container{
+        margin-left: 0;
+    }
+    .menu-title-container-mobile{
+        font-size: 40px;
+        display:flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .menu-content-container{
+        width: 100%;
+        padding-top: 0;
+    }
+
+}
+

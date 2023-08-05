@@ -2,6 +2,7 @@
     height: 100vh;
     background:  linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../image/bg.png');
     background-size:cover;
+
 }
 
 .top-bar-container{

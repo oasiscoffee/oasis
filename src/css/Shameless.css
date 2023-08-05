@@ -1,0 +1,39 @@
+.shameless-container-open{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background: rgb(230, 190, 168); */
+    background: #060424;
+    animation: fadeIn 2s;
+    position: absolute;
+    bottom: 0;
+}
+
+.shameless-container-closed{
+    width: 0;
+}
+
+.shameless-container-open p{
+    margin-right: 40px;
+    margin-bottom: 40px;
+    color: #E59368;
+    animation: fadeIn 2s;
+}
+
+.shameless-container-closed{
+    font-size: 0;
+
+}
+
+.shameless-container-open a{
+    text-decoration: none;
+    color: #E59368;
+    transition-duration: .3s;
+}
+
+.shameless-container-open a:hover{
+    color: white;
+    transition-duration: .3s;
+}

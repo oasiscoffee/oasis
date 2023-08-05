@@ -1,0 +1,43 @@
+.actual-menu-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transition-duration: .5s;
+}
+
+.actual-menu-left-side{
+    justify-self: end;
+    width: 100%;
+}
+
+.actual-menu-left-list-container{
+    width: 80%;
+    margin-left: 30px;
+    float: right;
+}
+
+.actual-menu-left-list-container p{
+    margin-top: -15px;
+    margin-bottom: 31px;
+}
+
+.actual-menu-right-side{
+    width: 100%;
+}
+
+.actual-menu-right-list-container{
+    width: 80%;
+    justify-self: start;
+    margin-left: 20px;
+}
+
+.actual-menu-right-list-container p{
+    margin-top: -15px;
+    margin-bottom: 31px;
+}
+
+@media screen and (width < 860px){
+    .actual-menu-left-list-container{
+        margin-left: 0;
+    }
+}

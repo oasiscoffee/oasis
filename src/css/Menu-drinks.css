@@ -1,0 +1,21 @@
+.menu-drinks-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-drinks-content-container{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.menu-drinks-content-container h1{
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.menu-drinks-content-container p{
+    margin: 10px 10px 10px 10px;
+}

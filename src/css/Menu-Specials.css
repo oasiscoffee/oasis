@@ -1,0 +1,15 @@
+.menu-specials-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-specials-content-container{
+    width: 70%;
+    max-width: 450px;
+}
+
+.menu-specials-content-container p{
+    margin-top: -16px;
+    margin-bottom: 31px;
+}
