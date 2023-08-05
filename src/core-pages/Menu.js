@@ -6,12 +6,13 @@ import MenuList from "../components/Menu-list";
 import MenuPages from "../components/menu-pages";
 import { useNavigate } from "react-router-dom";
 import MenuSpecials from "../components/Menu-Specials";
+import MenuDrinks from "../components/menu-drinks";
 
 export default function Menu() {
 
     const [open, setOpen] = useState(false);
 
-    const [category, setCategory] = useState(false);
+    const [category, setCategory] = useState("drinks");
 
     const navigate = useNavigate();
 
@@ -26,7 +27,7 @@ export default function Menu() {
     return (
         <div className="menu-container">
             <div className="menu-title-container">
-                <p>FOOD</p>
+                {(category === "mains" || category === "specials") ? <p>FOOD</p> : <p style={{fontSize : "13vw"}}>DRINKS</p>}
             </div>
             <div className="menu-right-side-container">
                 <div className="menu-logo-navigation-container">
@@ -38,23 +39,28 @@ export default function Menu() {
                     </div>
                 </div>
                 <div className="menu-title-container-mobile">
-                    <p>FOOD</p>
+                    {(category === "mains" || category === "specials") ? <p>FOOD</p> : <p>DRINKS</p>}
                 </div>
                 <div className="menu-content-container">
                     <div className="menu-content-position-container">
                         <div className="menu-content-filter-container">
-                            <p style={(category) ? {} : { color: "rgba(256, 256, 256, 0.5)" }} onClick={() => setCategoryHandler(true)}>
+                            <p style={(category === "drinks") ? {} : { color: "rgba(256, 256, 256, 0.5)" }} onClick={() => setCategoryHandler("drinks")}>
+                                Drinks
+                            </p>
+                            <p style={(category === "mains") ? {} : { color: "rgba(256, 256, 256, 0.5)" }} onClick={() => setCategoryHandler("mains")}>
                                 Main
                             </p>
-                            <p style={(category) ? { color: "rgba(256, 256, 256, 0.5)" } : {}} onClick={() => setCategoryHandler(false)}>
+                            <p style={(category === "specials") ? {} : { color: "rgba(256, 256, 256, 0.5)" }} onClick={() => setCategoryHandler("specials")}>
                                 Specials
                             </p>
                         </div>
-                        {(category) ? <MenuList /> : <MenuSpecials/>}
+                        {(category === "mains") ? <MenuList /> : <></>}
+                        {(category === "specials") ? <MenuSpecials /> : <></>}
+                        {(category === "drinks") ? <MenuDrinks/> : <></>}
                     </div>
                 </div>
             </div>
-            <MenuPages setting={open}/>
+            <MenuPages setting={open} />
         </div>
     )
 }

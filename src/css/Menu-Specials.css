@@ -6,6 +6,7 @@
 
 .menu-specials-content-container{
     width: 70%;
+    max-width: 450px;
 }
 
 .menu-specials-content-container p{

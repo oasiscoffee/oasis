@@ -2,6 +2,7 @@ import React from "react";
 import '../css/menu-pages.css';
 
 import logo from '../image/oasis.png';
+import Shameless from "../components/Shameless.js";
 
 export default function MenuPages(props) {
     return (
@@ -17,6 +18,7 @@ export default function MenuPages(props) {
                         <p>Contact</p>
                 </div>
             </div>
+            <Shameless setting={props.setting}/>
         </div>
     )
 }

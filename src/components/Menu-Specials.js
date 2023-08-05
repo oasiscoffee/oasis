@@ -9,7 +9,7 @@ export default function MenuSpecials(){
                 <h2>Conchas</h2>
                 <p>Mexican bread</p>
                 <h2>Churro Cheesecake</h2>
-                <p>made by dani's desserts</p>
+                <p>made by Danyy Desserts</p>
             </div>
         </div>
     )

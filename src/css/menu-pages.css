@@ -28,11 +28,11 @@
 .menu-routes-logo-open{
     width: 20%;
     min-width: 300px;
-    transition-duration: .6s;
+    animation: fadeIn 2s;
 }
 .menu-routes-logo-closed{
-    width: 0;
-    transition-duration: .6s;
+    display: none;
+    animation: fadeOut 2s;
 }
 
 
@@ -52,16 +52,36 @@
 
 .menu-routes-list-container-open p{
     font-size: 2em;
-    transition-duration: .6s;
+    animation: fadeIn 2s;
     cursor: pointer;
+    
+}
+
+.menu-routes-list-container-open a{
+    transition-duration: .3s;
 }
 
 .menu-routes-list-container-open a:visited{
-    color: rgb(244, 220, 220);
+    color: #E59368;
+}
+
+.menu-routes-list-container-open a:hover{
+    color: white;
+    transition-duration: .3s;
 }
 
 
 .menu-routes-list-container-closed p{
     font-size: 0em;
-    transition-duration: .4s;
+    animation: fadeOut 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+@keyframes fadeOut {
+    0% { opacity: 1;}
+    100% {opacity: 0;}
 }

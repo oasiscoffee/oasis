@@ -6,7 +6,7 @@ export default function MenuList() {
         <div className="actual-menu-container">
             <div className="actual-menu-left-side">
                 <div className="actual-menu-left-list-container">
-                    <h2>Avocado Toast</h2>
+                    <h1>Avocado Toast</h1>
                     <p>Sourdough, wheat</p>
                     <h2>Option 1</h2>
                     <p>sourdough, avocado, microgreens, hem seeds</p>
@@ -18,7 +18,7 @@ export default function MenuList() {
             </div>
             <div className="actual-menu-right-side">
                 <div className="actual-menu-right-list-container">
-                    <h2>Bagel Sandwiches</h2>
+                    <h1>Bagel Sandwiches</h1>
                     <p>everything, asiago, cinnamon</p>
                     <h2>Option 1</h2>
                     <p>everything bagel, homemade cream cheese, turkey, red onion, lettuce</p>
