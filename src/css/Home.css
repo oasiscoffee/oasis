@@ -29,6 +29,7 @@
 
 .top-bar-logo{
     width: 100%;
+    min-width: 150px;
 } 
 
 .oasis-big-text-container{

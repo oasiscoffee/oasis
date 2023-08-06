@@ -27,7 +27,7 @@
 
 .menu-routes-logo-open{
     width: 20%;
-    min-width: 300px;
+    min-width: 250px;
     animation: fadeIn 2s;
 }
 .menu-routes-logo-closed{
@@ -45,7 +45,6 @@
 .menu-routes-list-container-open{
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 30%;
     color: #E59368;
 }
