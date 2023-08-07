@@ -1,0 +1,3 @@
+arrow functions handle context in a lexical way, normal
+do it dynamically
+
