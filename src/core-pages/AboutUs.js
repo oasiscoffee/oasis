@@ -5,10 +5,13 @@ import '../css/AboutUs.css';
 import logo from '../image/oasis.png';
 import MenuBar from "../components/menuBar";
 import MenuPages from "../components/menu-pages";
+import { useNavigate } from "react-router-dom";
 
 const AboutUs = () => {
 
     const [open, setOpen] = useState(false);
+
+    const navigate = useNavigate();
 
     const setMenuHandler = () => {
         setOpen(!open);
@@ -18,7 +21,7 @@ const AboutUs = () => {
         <div className="about-container">
             <div className="coffee-about-top-navigation-container">
                 <div className="coffee-about-logo-container">
-                    <img src={logo} alt="coffee-about-oasis-logo" />
+                    <img src={logo} onClick={() => { navigate("/")}}alt="coffee-about-oasis-logo" />
                 </div>
                 <div className="coffee-menu-bar-container">
                     <MenuBar setting={setMenuHandler} />
@@ -32,6 +35,11 @@ const AboutUs = () => {
                     <div className="about-text-paragraph-container">
                         <p>
                             fkjslanfklknaldnflsanfkldsanfls
+                        </p>
+                    </div>
+                    <div className="about-text-subtext-container">
+                        <p>
+                            Big thanks to our help!
                         </p>
                     </div>
                 </div>

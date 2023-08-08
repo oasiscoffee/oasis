@@ -6,10 +6,13 @@ import logo from '../image/oasis.png';
 import MenuBar from "../components/menuBar";
 import nameless from '../image/nameless .png';
 import MenuPages from "../components/menu-pages";
+import { useNavigate } from "react-router-dom";
 
 const OurCoffee = () => {
 
     const [open, setOpen] = useState(false);
+
+    const navigate = useNavigate();
 
     const setMenuHandler = () => {
         setOpen(!open);
@@ -18,7 +21,7 @@ const OurCoffee = () => {
         <div className="coffee-container">
             <div className="coffee-about-top-navigation-container">
                 <div className="coffee-about-logo-container">
-                    <img src={logo} alt="coffee-about-oasis-logo" />
+                    <img src={logo} onClick={() => navigate("/")} alt="coffee-about-oasis-logo" />
                 </div>
                 <div className="coffee-menu-bar-container">
                     <MenuBar setting={setMenuHandler} />

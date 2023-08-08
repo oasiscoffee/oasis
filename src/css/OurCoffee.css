@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    animation: fadeIn 2s;
 }
 
 .coffee-about-top-navigation-container{
@@ -25,7 +26,8 @@
 
 .coffee-about-logo-container img{
     width: 100%;
-
+    cursor: pointer;
+    min-width: 200px;
 }
 
 .coffee-menu-bar-container{
@@ -57,6 +59,7 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 50px;
+    margin-bottom: 50px;
 }
 
 .coffee-text-title-container{
@@ -99,5 +102,11 @@
 
     .coffee-text-paragraph-container p{
         margin-right: 0;
+    }
+}
+
+@media screen and (width < 414px){
+    .coffee-text-paragraph-container{
+        max-width: 250px;
     }
 }

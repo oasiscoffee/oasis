@@ -45,8 +45,9 @@
 .menu-routes-list-container-open{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: fit-content;
     color: #E59368;
+    align-items: center;
 }
 
 .menu-routes-list-container-open p{

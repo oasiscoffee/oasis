@@ -4,6 +4,7 @@
     background-size:cover;
     display: flex;
     flex-direction: column;
+    animation: fadeIn 2s;
 }
 
 .top-bar-container{

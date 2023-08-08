@@ -4,6 +4,7 @@
     background-color: #080527;
     height: 100vh;
     overflow-x: hidden;
+    animation: fadeIn 2s;
 
 }
 
@@ -79,6 +80,7 @@
 .menu-content-filter-container{
     display: flex;
     font-weight: 700;
+    flex-wrap: wrap;
 }
 
 .menu-content-filter-container p{
@@ -116,3 +118,7 @@
 
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
+}

@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    animation: fadeIn 2s;
 }
 
 .about-content-container{
