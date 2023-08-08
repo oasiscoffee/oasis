@@ -28,7 +28,7 @@
 .menu-routes-logo-open{
     width: 20%;
     min-width: 250px;
-    animation: fadeIn 2s;
+    animation: fadeIn 3s;
 }
 .menu-routes-logo-closed{
     display: none;

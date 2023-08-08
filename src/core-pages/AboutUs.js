@@ -34,18 +34,18 @@ const AboutUs = () => {
                     </div>
                     <div className="about-text-paragraph-container">
                         <p>
-                            fkjslanfklknaldnflsanfkldsanfls
+                           page coming soon.
                         </p>
                     </div>
-                    <div className="about-text-subtext-container">
+                    {/* <div className="about-text-subtext-container">
                         <p>
                             Big thanks to our help!
                         </p>
-                    </div>
+                    </div> */}
                 </div>
-                <div className="about-big-image-container">
+                {/* <div className="about-big-image-container">
                     <div className="img-placeholder"></div>
-                </div>
+                </div> */}
             </div>
             <MenuPages setting={open}/>
         </div>
