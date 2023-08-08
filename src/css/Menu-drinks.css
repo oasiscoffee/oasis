@@ -9,6 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 500px;
+    min-width: 300px;
 }
 
 .menu-drinks-content-container h1{

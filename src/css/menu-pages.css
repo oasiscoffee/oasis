@@ -27,8 +27,8 @@
 
 .menu-routes-logo-open{
     width: 20%;
-    min-width: 300px;
-    animation: fadeIn 2s;
+    min-width: 250px;
+    animation: fadeIn 3s;
 }
 .menu-routes-logo-closed{
     display: none;
@@ -45,9 +45,9 @@
 .menu-routes-list-container-open{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 30%;
+    width: fit-content;
     color: #E59368;
+    align-items: center;
 }
 
 .menu-routes-list-container-open p{

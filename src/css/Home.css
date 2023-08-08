@@ -2,7 +2,9 @@
     height: 100vh;
     background:  linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../image/bg.png');
     background-size:cover;
-
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 2s;
 }
 
 .top-bar-container{
@@ -29,6 +31,7 @@
 
 .top-bar-logo{
     width: 100%;
+    min-width: 150px;
 } 
 
 .oasis-big-text-container{
@@ -37,4 +40,6 @@
     display: flex;
     justify-content: center;
     color: #E59368;
+    flex: 1;
+    align-items: center;
 }
