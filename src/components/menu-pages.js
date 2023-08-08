@@ -13,7 +13,7 @@ export default function MenuPages(props) {
             <div className="menu-routes-container">
                 <div className={(props.setting) ? "menu-routes-list-container-open" : "menu-routes-list-container-closed"}>
                         <a href="/menu" style={{textDecoration : "none" }}><p>Menu</p></a>
-                        <p>About us</p>
+                        <a href="/about" style={{textDecoration : "none" }}><p>About us</p></a>
                         <a href="/coffee" style={{textDecoration : "none" }}><p>Our coffee</p></a>
                         <p>Contact</p>
                 </div>

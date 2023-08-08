@@ -45,7 +45,7 @@ export default function Menu() {
                     <div className="menu-content-position-container">
                         <div className="menu-content-filter-container">
                             <p style={(category === "drinks") ? {} : { color: "rgba(256, 256, 256, 0.5)" }} onClick={() => setCategoryHandler("drinks")}>
-                                Drinks
+                                Coffee&More
                             </p>
                             <p style={(category === "mains") ? {} : { color: "rgba(256, 256, 256, 0.5)" }} onClick={() => setCategoryHandler("mains")}>
                                 Main

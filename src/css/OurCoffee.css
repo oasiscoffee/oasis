@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-.coffee-top-navigation-container{
+.coffee-about-top-navigation-container{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -14,7 +14,7 @@
     
 }
 
-.coffee-logo-container{
+.coffee-about-logo-container{
     width: 60%;
     grid-area: logo;
     display: flex;
@@ -23,7 +23,7 @@
     justify-self: center;
 }
 
-.coffee-logo-container img{
+.coffee-about-logo-container img{
     width: 100%;
 
 }
