@@ -15,7 +15,7 @@ export default function MenuPages(props) {
                         <a href="/menu" style={{textDecoration : "none" }}><p>Menu</p></a>
                         <a href="/about" style={{textDecoration : "none" }}><p>About us</p></a>
                         <a href="/coffee" style={{textDecoration : "none" }}><p>Our coffee</p></a>
-                        <p>Contact</p>
+                        <a href="/contact" style={{textDecoration : "none" }}><p>Contact</p></a>
                 </div>
             </div>
             <Shameless setting={props.setting}/>
