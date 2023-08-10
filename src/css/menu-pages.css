@@ -61,6 +61,14 @@
     transition-duration: .3s;
 }
 
+.menu-routes-list-container-open a:before{
+    color: #E59368;
+}
+
+.menu-routes-list-container-open a:active{
+    color: #E59368;
+}
+
 .menu-routes-list-container-open a:visited{
     color: #E59368;
 }

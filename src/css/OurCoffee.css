@@ -45,6 +45,7 @@
     width: 40%;
     display: flex;
     align-items: center;
+    min-width: 350px;
 }
 
 .coffee-big-image-container img{
@@ -60,6 +61,7 @@
     justify-content: center;
     padding-left: 50px;
     margin-bottom: 50px;
+
 }
 
 .coffee-text-title-container{
@@ -91,7 +93,7 @@
     }
     .coffee-text-container{
         align-items: center;
-        min-width: 400px;
+        min-width: 375px;
         padding-left: 0;
     }
 
@@ -107,6 +109,6 @@
 
 @media screen and (width < 414px){
     .coffee-text-paragraph-container{
-        max-width: 250px;
+        max-width: 300px;
     }
 }
