@@ -16,6 +16,12 @@ export default function MenuDrinks(){
         "decaf"
     ]
 
+    const tea_list = [
+        "chai",
+        "matcha",
+        "london fog"
+    ]
+
     const smoothie_list = [
         "strawberry banana",
         "green smoothie",
@@ -32,6 +38,12 @@ export default function MenuDrinks(){
             <div className="menu-drinks-content-container">
                 <h1>Coffee</h1>
                 {coffee_list.map((value) => {
+                    return(
+                        <p>{value}</p>
+                    )
+                })}
+                <h1>Tea</h1>
+                {tea_list.map((value) => {
                     return(
                         <p>{value}</p>
                     )
