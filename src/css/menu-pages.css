@@ -54,7 +54,7 @@
     font-size: 2em;
     animation: fadeIn 2s;
     cursor: pointer;
-    
+    letter-spacing: 0.48px;
 }
 
 .menu-routes-list-container-open a{

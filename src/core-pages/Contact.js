@@ -32,24 +32,33 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contact-content-container">
-                <div className="contact-top-sentence-container">
-                    <h1>Please contact us anytime!</h1>
+                <div className="contact-top-section-container">
+                    <div className="contact-top-section-center-container">
+                        <p>Monday-Saturday<br></br>Sunday</p>
+                        <p>7am-6:30pm<br></br>1pm-6:30pm</p>
+                    </div>
                 </div>
-                <div className="contact-icons-container">
-                    <a href="mailto:oasiscoff33shop@gmail.com" className="contact-icon-image-container">
-                        <img className="email-target" src={email}></img>
+                <div className="contact-bottom-section-container">
+                    <div className="contact-top-sentence-container">
+                        <p>Check us out on social media to see what we are up to!
+                        </p>
+                    </div>
+                    <div className="contact-icons-container">
+                        <a href="mailto:oasiscoff33shop@gmail.com" className="contact-icon-image-container">
+                            <img className="email-target" src={email}></img>
                         </a>
-                    <a href="https://www.facebook.com/profile.php?id=100094599481365" target="_blank"className="contact-icon-image-container">
-                        <img src={facebook}></img>
+                        <a href="https://www.facebook.com/profile.php?id=100094599481365" target="_blank" className="contact-icon-image-container">
+                            <img src={facebook}></img>
                         </a>
-                    <a href="https://www.instagram.com/oasiscoffee.shop/" target="blank_" className="contact-icon-image-container">
-                        <img src={instagram}></img>
+                        <a href="https://www.instagram.com/oasiscoffee.shop/" target="blank_" className="contact-icon-image-container">
+                            <img src={instagram}></img>
                         </a>
-                </div>
-                <div className="contact-bottom-sentence-container">
-                    <h3>
-                    Hey! As new business owners we would love to hear any of your feedback!
-                    </h3>
+                    </div>
+                    <div className="contact-bottom-sentence-container">
+                        <p>
+                            Hey! As new business owners we would love to hear any of your feedback!
+                        </p>
+                    </div>
                 </div>
             </div>
             <MenuPages setting={open} />
