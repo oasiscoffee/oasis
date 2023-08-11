@@ -43,3 +43,16 @@
     flex: 1;
     align-items: center;
 }
+
+.oasis-direction-text-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #E59368;
+    align-items: start;
+    font-size: calc(.5vw + 15px);
+}
+
+.oasis-direction-text-container p{
+    margin-block-start: 0;
+}

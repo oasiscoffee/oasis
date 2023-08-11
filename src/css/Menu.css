@@ -88,6 +88,7 @@
     cursor: pointer;
     margin: 15px;
     transition-duration: .3s;
+    letter-spacing: 0.48px;
 }
 
 .menu-content-filter-container p:hover{

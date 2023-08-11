@@ -30,6 +30,9 @@ function Home() {
             <div className="oasis-big-text-container">
                 <p>Welcome to Oasis.</p>
             </div>
+            <div className="oasis-direction-text-container">
+                <p>1017 Main St, Winfield, KS</p>
+            </div>
             <MenuPages setting={open} />
         </div>
     )
