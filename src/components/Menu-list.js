@@ -21,7 +21,7 @@ export default function MenuList() {
                     <h1>Bagel Sandwiches</h1>
                     <p>everything, asiago, cinnamon</p>
                     <h2>Option 1</h2>
-                    <p>everything bagel, homemade cream cheese, turkey, red onion, lettuce</p>
+                    <p>everything bagel, cream cheese, red pepper flakes, honey, turkey, red onion, lettuce</p>
                     <h2>Option 2</h2>
                     <p>regular bagel, avocado, baby spinach, pesto, egg, sauce of choice</p>
                     <h2>Option 3</h2>
