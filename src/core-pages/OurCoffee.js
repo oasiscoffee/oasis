@@ -29,7 +29,7 @@ const OurCoffee = () => {
             </div>
             <div className="coffee-content-container">
                 <div className="coffee-big-image-container">
-                    <img src={nameless} />
+                    <img src={nameless} alt="nameless-logo"/>
                 </div>
                 <div className="coffee-text-container">
                     <div className="coffee-text-title-container">

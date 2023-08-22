@@ -8,7 +8,7 @@ export default function MenuPages(props) {
     return (
         <div className={(props.setting) ? "menu-routes-container-open" : "menu-routes-container-closed"}>
             <div className="menu-routes-logo-container">
-                <img className={(props.setting) ? "menu-routes-logo-open" : "menu-routes-logo-closed"}  src={logo}></img>
+                <img className={(props.setting) ? "menu-routes-logo-open" : "menu-routes-logo-closed"}  src={logo} alt="menu-pages-logo"></img>
             </div>
             <div className="menu-routes-container">
                 <div className={(props.setting) ? "menu-routes-list-container-open" : "menu-routes-list-container-closed"}>

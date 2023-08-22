@@ -45,13 +45,13 @@ const Contact = () => {
                     </div>
                     <div className="contact-icons-container">
                         <a href="mailto:oasiscoff33shop@gmail.com" className="contact-icon-image-container">
-                            <img className="email-target" src={email}></img>
+                            <img className="email-target" alt="email" src={email}></img>
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=100094599481365" target="_blank" className="contact-icon-image-container">
-                            <img src={facebook}></img>
+                        <a href="https://www.facebook.com/profile.php?id=100094599481365" target="_blank" rel="noreferrer" className="contact-icon-image-container">
+                            <img src={facebook} alt="facebook-logo"></img>
                         </a>
                         <a href="https://www.instagram.com/oasiscoffee.shop/" target="blank_" className="contact-icon-image-container">
-                            <img src={instagram}></img>
+                            <img src={instagram} alt="instagram-logo"></img>
                         </a>
                     </div>
                     <div className="contact-bottom-sentence-container">
