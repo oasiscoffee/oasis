@@ -32,7 +32,7 @@ export default function Menu() {
             <div className="menu-right-side-container">
                 <div className="menu-logo-navigation-container">
                     <div className="menu-logo-container">
-                        <img onClick={() => navigate("/")} src={logo}></img>
+                        <img onClick={() => navigate("/")} src={logo} alt="menu-logo"></img>
                     </div>
                     <div className="menu-menu-bar-container">
                         <MenuBar setting={setMenuHandler} />

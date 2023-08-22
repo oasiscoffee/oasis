@@ -18,12 +18,12 @@ function Home() {
         <div className="home-container">
             <div className="top-bar-container">
                 <div className="top-bar-instagram-container">
-                    <a href="https://www.instagram.com/oasiscoffee.shop/" target="_blank">
-                        <img className="top-bar-instagram-logo" src={instagram}></img>
+                    <a href="https://www.instagram.com/oasiscoffee.shop/" target="_blank" rel="noreferrer">
+                        <img className="top-bar-instagram-logo" src={instagram} alt="home-instagram-logo"></img>
                     </a>
                 </div>
                 <div className="top-bar-logo-container">
-                    <img className="top-bar-logo" src={logo}></img>
+                    <img className="top-bar-logo" src={logo} alt="home-logo"></img>
                 </div>
                 <MenuBar setting={setMenuHandler} />
             </div>
