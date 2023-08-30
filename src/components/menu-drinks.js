@@ -61,6 +61,7 @@ export default function MenuDrinks(){
                     )
                 })}
             </div>
+            <h2>MORE TO COME :)</h2>
         </div>
     )
 }
