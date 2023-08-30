@@ -11,6 +11,7 @@ export default function MenuSpecials(){
                 <h2>Churro Cheesecake</h2>
                 <p>made by Danyy Desserts</p>
             </div>
+            <h2 className="menu-specials-bottom-text">MORE TO COME :)</h2>
         </div>
     )
 }

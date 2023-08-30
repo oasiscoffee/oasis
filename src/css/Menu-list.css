@@ -1,6 +1,9 @@
 .actual-menu-container{
     width: 100%;
     display: grid;
+    grid-template-areas: 
+    "left right"
+    "center center";
     grid-template-columns: 1fr 1fr;
     transition-duration: .5s;
 }
@@ -8,6 +11,7 @@
 .actual-menu-left-side{
     justify-self: end;
     width: 100%;
+    grid-area: left;
 }
 
 .actual-menu-left-list-container{
@@ -23,6 +27,7 @@
 
 .actual-menu-right-side{
     width: 100%;
+    grid-area: right;
 }
 
 .actual-menu-right-list-container{
@@ -34,6 +39,14 @@
 .actual-menu-right-list-container p{
     margin-top: -15px;
     margin-bottom: 31px;
+}
+
+.actual-menu-bottom-text{
+    display: flex;
+    width: 100%;
+    grid-area: center;
+    justify-content: center;
+    color: #E59368;
 }
 
 @media screen and (width < 860px){

@@ -2,6 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu-drinks-content-container{
@@ -19,4 +21,8 @@
 
 .menu-drinks-content-container p{
     margin: 10px 10px 10px 10px;
+}
+
+.menu-drinks-container h2{
+    color: #E59368;
 }
