@@ -61,7 +61,7 @@
     transition-duration: .3s;
 }
 
-.menu-routes-list-container-open a:before{
+.menu-routes-list-container-open a:link{
     color: #E59368;
 }
 
