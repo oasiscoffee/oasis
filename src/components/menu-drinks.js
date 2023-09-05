@@ -17,7 +17,7 @@ export default function MenuDrinks(){
     ]
 
     const tea_list = [
-        "chai",
+        "vanilla chai",
         "matcha",
         "london fog"
     ]
