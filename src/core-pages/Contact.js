@@ -34,8 +34,8 @@ const Contact = () => {
             <div className="contact-content-container">
                 <div className="contact-top-section-container">
                     <div className="contact-top-section-center-container">
-                        <p>Monday-Friday<br></br>Saturday<br></br>Sunday<br></br></p>
-                        <p>7am-6:30pm<br></br>7am-4:30pm<br></br>1pm-5:00pm</p>
+                        <p>Monday-Friday<br></br>Saturday</p>
+                        <p>7am-6:30pm<br></br>7am-4:00pm</p>
                     </div>
                 </div>
                 <div className="contact-bottom-section-container">
