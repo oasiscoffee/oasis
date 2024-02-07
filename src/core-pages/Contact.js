@@ -35,7 +35,7 @@ const Contact = () => {
                 <div className="contact-top-section-container">
                     <div className="contact-top-section-center-container">
                         <p>Monday-Friday<br></br>Saturday</p>
-                        <p>7am-6:00pm<br></br>7am-4:00pm</p>
+                        <p>7am-5:00pm<br></br>7am-4:00pm</p>
                     </div>
                 </div>
                 <div className="contact-bottom-section-container">
