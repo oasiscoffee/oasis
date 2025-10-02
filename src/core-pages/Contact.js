@@ -32,6 +32,55 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contact-content-container">
+                <div style={{
+                    border: 'white 2px ', 
+                    display: 'flex',
+                    justifyContent: 'center',
+                    width: 'auto',
+                    }}>
+                        <link
+                            rel="stylesheet"
+                            href="https://cdn6.localdatacdn.com/badges/restaurantji/css/circle_v5_2025.css?v=51295"
+                        />
+
+                        <div
+                            id="circle_v5_2025_wrap"
+                            style={{ width: "calc(250px * 1)", height: "calc(250px * 1)" }}
+                        >
+                            <div id="circle_v5_2025" tabIndex={0}>
+                                <div
+                                    id="circletype_v5_2025_brand_name"
+                                    className="autoFontSize"
+                                    style={{ fontSize: "calc(12.5px * 1)" }}
+                                >
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.restaurantji.com/ks/winfield/oasis-coffee-shop-/"
+                                        className="ahref_emprty_area"
+                                        style={{ color: "#000" }}
+                                    >
+                                        Oasis Coffee Shop
+                                    </a>
+                                    <hr id="restaurantji_badge_separator" />
+                                    <div
+                                        className="circle_badge_category"
+                                        style={{ fontSize: "calc(13px * 1)" }}
+                                    >
+                                        Coffee
+                                    </div>
+                                </div>
+                                <a
+                                    href="https://www.restaurantji.com/ks/winfield/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    id="rewards_link"
+                                >
+                                    Restaurantji
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 <div className="contact-top-section-container">
                     <div className="contact-top-section-center-container">
                         <p>Monday-Friday<br></br>Saturday</p>

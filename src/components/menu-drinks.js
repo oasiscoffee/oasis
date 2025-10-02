@@ -61,7 +61,7 @@ export default function MenuDrinks(){
                     )
                 })}
             </div>
-            <h2>MORE TO COME :)</h2>
+            <h2>Come in to see our seasonal drinks :)</h2>
         </div>
     )
 }
